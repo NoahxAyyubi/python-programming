@@ -1,0 +1,14 @@
+assignment1.py
+
+GitHub Repository Link:
+https://github.com/NoahxAyyubi/python-programming
+
+Reflection:
+
+Mohamed Houqe
+Python Programming
+September 28, 2026
+
+Installing and setting up Python went well overall. At first, I had to make sure Python was installed correctly and that I could run a Python file from my computer. Once everything was ready, it felt good to see the program run and print the message and calculation without errors.
+
+Writing my first Python script felt simple but exciting because it showed me how code can give instructions to the computer. I learned how to use print statements, store a calculation in a variable, and run a basic program. I also learned that GitHub is useful for saving code online, tracking changes through commits, and sharing a project link so my instructor can see both the file and the commit history.
