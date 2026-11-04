@@ -20,15 +20,25 @@ def main():
         "Ali": [70, 65, 75],
     }
 
+    today = date.today()
+
     print("Student Grade Report")
-    print(f"Date: {date.today()}")
+    print("Date:", today)
     print()
 
-    for name, scores in students.items():
+    student_count = 0
+
+    for name in students:
+        # Get this student's scores before doing the math.
+        scores = students[name]
         average = grade_tools.calculate_average(scores)
         letter_grade = grade_tools.get_letter_grade(average)
         report = format_student_report(name, average, letter_grade)
         print(report)
+        student_count = student_count + 1
+
+    print()
+    print("Students in this report:", student_count)
 
 
 if __name__ == "__main__":
